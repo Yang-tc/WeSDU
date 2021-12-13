@@ -1,0 +1,54 @@
+.homeContainer {
+  background-color: #6bc2fc;
+  animation: bg_color 1s;
+}
+@keyframes bg_color {
+  from { background-color: #63cfc1; }
+  to { background-color: #6bc2fc; }
+}
+.head {
+  margin-top: 100rpx;
+}
+.home {
+  background-color: white;
+  height: 150vw;
+  width: 100vw;
+  border-radius: 0 50vw 0 0;
+  margin-top: -20rpx;
+  z-index: 100;
+  animation: home_height 1s;
+}
+@keyframes home_height {
+  from { margin-top: 200rpx; }
+  to { margin-top: -20rpx; }
+}
+.title {
+  font-size: 70rpx;
+  color: white;
+  margin-top: 20rpx;
+  padding-left: 50rpx;
+  font-weight: bold;
+}
+.home_pic {
+  height: 200rpx;
+  margin-left: 28vw;
+  margin-top: -100rpx;
+  animation: pic_height 1s;
+}
+@keyframes pic_height {
+  from { height: 400rpx; }
+  to { height: 200rpx; }
+}
+.table {
+  text-align: center;
+}
+.icon {
+  height: 100rpx;
+  width: 100rpx;
+  margin: 20rpx;
+    
+}
+.icon_title {
+  font-size: 30rpx;
+  margin-top: -20rpx;
+}

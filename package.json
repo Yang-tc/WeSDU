@@ -1,0 +1,39 @@
+{
+  "name": "mySDU",
+  "author": "Like_Frost",
+  "description": "我的山大",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "rax-app start",
+    "build": "rax-app build",
+    "eslint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./",
+    "eslint:fix":"eslint --fix",
+    "lint:style": "stylelint \"src/*.{css,scss}\"",
+    "fix:style": "stylelint --fix \"src/*.{css,scss}\"",
+    "prettier": "prettier **/* --write",
+    "lint": "npm run eslint && npm run stylelint"
+  },
+  "dependencies": {
+    "@miniprogram-component-plus/col": "^1.0.0",
+    "@miniprogram-component-plus/row": "^1.0.0",
+    "@uni/navigate": "^1.0.8",
+    "rax": "^1.1.0",
+    "rax-document": "^0.1.0",
+    "rax-image": "^2.0.0",
+    "rax-link": "^1.0.1",
+    "rax-text": "^2.0.0",
+    "rax-textinput": "^1.4.2",
+    "rax-view": "^2.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@iceworks/spec": "^1.4.2",
+    "eslint": "^6.8.0",
+    "prettier": "^2.1.2",
+    "rax-app": "^3.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  },
+  "private": true,
+  "originTemplate": "@rax-materials/scaffolds-app-js"
+}

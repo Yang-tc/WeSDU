@@ -1,0 +1,59 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "source": "pages/Login/index"
+    },
+    {
+      "path":"/home",
+      "source":"pages/Home/index"
+    },
+    {
+      "path":"/news",
+      "source":"pages/News/index"
+    },
+    {
+      "path":"/square",
+      "source":"pages/Square/index"
+    },
+    {
+      "path":"/person",
+      "source":"pages/Person/index"
+    }
+  ],
+  "window": {
+    "title": "my SDU",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#666",
+    "backgroundColor": "#f8f8f8",
+    "items": [
+      {
+        "text":"首页",
+        "pageName": "/home",
+        "icon":"home.png",
+        "activeIcon":"home_sel.png"
+        },
+      {
+        "text":"资讯",
+        "pageName": "/news",
+        "icon":"news.png",
+        "activeIcon":"news_sel.png"
+      },
+      {
+        "text":"广场",
+        "pageName":"/square",
+        "icon":"square.png",
+        "activeIcon":"square_sel.png"
+      },
+      {
+        "text":"个人中心",
+        "pageName":"/person",
+        "icon":"person.png",
+        "activeIcon":"person_sel.png"
+      }
+    ]
+  }
+}

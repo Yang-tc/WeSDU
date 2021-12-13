@@ -1,0 +1,60 @@
+.homeContainer {
+  background-color: #63cfc1;
+  height: 100vh;
+  overflow: hidden;
+}
+.head {
+  margin-top: 100rpx;
+}
+.login {
+  background-color: white;
+  height: 150vw;
+  width: 100vw;
+  border-radius: 0 70vw 0 0;
+  margin-top: 0;
+  z-index: 100;
+}
+.pic {
+  height: 400rpx;
+  margin-left: 18vw;
+  opacity: 0.8;
+}
+.title {
+  font-size: 80rpx;
+  color: white;
+  padding-left: 20rpx;
+  font-weight: bold;
+}
+.login_text {
+  font-size: 30px;
+  color: black;
+  margin-top: 100rpx;
+  margin-left: 30rpx;
+}
+.login_usr {
+  height: 100rpx;
+  width: 600rpx;
+  border: 1rpx black solid;
+  border-radius: 100rpx;
+  margin-left: 30rpx;
+  margin-top: 100rpx;
+  font-size: 40rpx;
+}
+.login_pasw {
+  height: 100rpx;
+  width: 600rpx;
+  border: 1rpx black solid;
+  border-radius: 100rpx;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+  font-size: 40rpx;
+}
+.login_button {
+  height: 100rpx;
+  width: 300rpx;
+  border: 1rpx black solid;
+  font-size: 40rpx;
+  border-radius: 100rpx;
+  margin-left: 150rpx;
+  margin-top: 50rpx;
+}
