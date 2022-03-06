@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2022-03-01 17:23:58
+ * @LastEditTime: 2022-03-05 11:08:45
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \WeSDU\src\pages\Home\index.jsx
+ */
 import { createElement } from 'rax';
 import View from 'rax-view';
 import Text from 'rax-text';
@@ -29,8 +37,10 @@ export default function Home() {
           <table className={styles.table}>
             <tr>
               <td>
-                <img src={schedule_icon} className={styles.icon} />
-                <Text className={styles.icon_title}>课程表</Text>
+                <navigator url="/pages/Schedule/index" role="link">
+                  <img src={schedule_icon} className={styles.icon} />
+                  <Text className={styles.icon_title}>课程表</Text>
+                </navigator>
               </td>
               <td>
                 <img src={test_icon} className={styles.icon} />

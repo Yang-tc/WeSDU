@@ -19,6 +19,10 @@
     {
       "path":"/person",
       "source":"pages/Person/index"
+    },
+    {
+      "path":"/schedule",
+      "source":"pages/Schedule/index"
     }
   ],
   "window": {

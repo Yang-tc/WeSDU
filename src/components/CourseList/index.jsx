@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2022-03-01 17:23:58
+ * @LastEditTime: 2022-03-03 17:03:18
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \WeSDU\src\components\CourseList\index.jsx
+ */
 import { createElement } from 'rax';
 import View from 'rax-view';
 import styles from './index.module.css';
@@ -9,6 +17,16 @@ function CourseList() {
     return arr_color[index];
   };
   const course = [
+    {
+      name: '物联网应用系统设计',
+      time: '8:00-9:50',
+      location: '未知',
+    },
+    {
+      name: '物联网应用系统设计',
+      time: '8:00-9:50',
+      location: '未知',
+    },
     {
       name: '物联网应用系统设计',
       time: '8:00-9:50',

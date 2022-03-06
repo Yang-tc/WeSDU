@@ -7,7 +7,7 @@
     "start": "rax-app start",
     "build": "rax-app build",
     "eslint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./",
-    "eslint:fix":"eslint --fix",
+    "eslint:fix": "eslint --fix",
     "lint:style": "stylelint \"src/*.{css,scss}\"",
     "fix:style": "stylelint --fix \"src/*.{css,scss}\"",
     "prettier": "prettier **/* --write",
